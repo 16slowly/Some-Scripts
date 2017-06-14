@@ -35,6 +35,7 @@ const get = name => {
 
 export default {set, get}
 
+
 /**
  * NOTE:
  * bug: 后端将 set-cookie 加上 'HttpOnly' 属性, 客户端脚本无法操作 cookie
